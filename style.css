@@ -17,8 +17,10 @@ body{
     margin: 0;
     width: 375px;
 }
+th,td{
+    display: block;
 
-
+}
 
 #main-header{
     padding:30px;
@@ -323,7 +325,9 @@ a{
         font-weight: 700;
         font-size: 16px;
        }
-       
+    th,td{
+        display:table-cell;
+    }
 
 }
 
