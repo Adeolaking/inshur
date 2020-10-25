@@ -15,7 +15,7 @@ body{
     font-family: Karla;
     font-weight: 400;
     margin: 0;
-    width: 375px;
+    
 }
 th,td{
     display: block;
@@ -26,15 +26,16 @@ th,td{
     padding:30px;
     margin: 0;
     background: white;
+    display: flex;
+    justify-content:space-between;
 }
 #main-header ul{
     display: none;
 }
 
-#main-header_nav-bar{
-    width: 50%;
+/* #main-header_nav-bar{
     float:right;
-}
+} */
 #main-header_nav-bar>ul{
     margin:0;
 }
@@ -279,6 +280,8 @@ a{
 
 }
     .first-section_div{
+        display:flex;
+        flex-direction:column;
         position: relative;
         top:100px;
         left: 100px;
