@@ -228,9 +228,12 @@ a {
 
 /* THe desktop view */
 
-@media (min-width: 40rem) {
+@media (min-width: 36rem) {
   #main-header ul {
     display: block;
+  }
+  #main-header nav svg{
+    display: none;
   }
   .first-section_div {
     position: relative;
